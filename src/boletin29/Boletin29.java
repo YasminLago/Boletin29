@@ -16,6 +16,7 @@ public class Boletin29 {
         listaBarcos.add(velero);
         listaBarcos.add(embarcacionDeporte);
         listaBarcos.add(yate);
+        System.out.println("Facturas:");
         for(Barco b:listaBarcos)
             System.out.println(b.toString());
         
